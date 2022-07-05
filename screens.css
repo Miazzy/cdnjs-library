@@ -1,0 +1,50 @@
+.screen-setup-icon { position: absolute; top:0px; right:0px; background:#fefefe; width:100px; height:100px; z-index: 1000; cursor: pointer; border-radius: 5px; }
+.screen-setup-icon:hover { z-index: 1001; border: 1px solid #66AFE9; background: #fefefe; }
+.screen-fullscreen-icon { position: absolute; top:101px; right:0px; background:#fefefe; width:100px; height:100px; z-index: 1000; cursor: pointer; }
+.screen-fullscreen-icon:hover { z-index: 1001; border: 1px solid #66AFE9; background: #fefefe; }
+.screen-fullscreen-exit-icon { position: absolute; top:201px; right:0px; background:#fefefe; width:100px; height:100px; z-index: 1000; cursor: pointer; }
+.screen-fullscreen-exit-icon:hover{ z-index: 1001; border: 1px solid #66AFE9; background: #fefefe; }
+.screen-switch-icon { position: absolute; top:301px; right:0px; background:#fefefe; width:100px; height:100px; z-index: 1000; cursor: pointer; border-radius: 5px; }
+.screen-switch-icon:hover { z-index: 1001; border: 1px solid #66AFE9; background: #fefefe; }
+.screen-splitview-icon { position: absolute; top:401px; right:0px; background:#fefefe; width:100px; height:100px; z-index: 1000; cursor: pointer; border-radius: 5px; }
+.screen-splitview-icon:hover { z-index: 1001; border: 1px solid #66AFE9; background: #fefefe; }
+.screen-fresh-icon { position: absolute; top:501px; right:0px; background:#fefefe; width:100px; height:100px; z-index: 1000; cursor: pointer; border-radius: 5px;}
+.screen-fresh-icon:hover { z-index: 1001; border: 1px solid #66AFE9; background: #fefefe; }
+.screen-icon-content{ position: absolute; top:0px; right:0px; width:100px; height:600px; z-index: 1000; opacity: 0.0; background: #fefefe; border-radius: 5px; -webkit-transform: perspective(1px) translateZ(0); transform: perspective(1px) translateZ(0); box-shadow: 0 0 1px rgba(0, 0, 0, 0); -webkit-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-property: box-shadow, transform; transition-property: box-shadow, transform; -webkit-transform: scale(0.95); transform: scale(0.95); }
+.screen-icon-content:hover{ position: absolute; top:0px; right:0px; width:100px; height:600px; z-index: 1000; opacity: 1.0; background: #f0f0f0; border: 1px solid #66AFE9; border-radius: 5px; box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5); -webkit-transform: scale(1.00); transform: scale(1.00); }
+.content-frame { width:25%; height:100%; background: #fefefe; margin:0px 0px; padding: 0px 0px; float: left; }
+.screen-dialog-content { position: absolute; margin: 0 auto; background: #fefefe; height: 640px; width: 40%; z-index: 10; top:25%; left: 30%; opacity: 0.0;border-radius: 10px; }
+.screen-dialog-content .dialog-content{ position: relative; border-radius: 10px; }
+.screen-dialog-content .dialog-header{ height:120px; background: #fefefe; border-bottom: 1px solid #f9f9f9; }
+.screen-dialog-content .dialog-header-inner { padding:20px 20px 0px 20px; height: 80px; line-height: 80px; }
+.screen-dialog-content .dialog-header-title { float:left;left:0px;margin-left:10px;cursor: pointer; }
+.screen-dialog-content .dialog-header-title span.dialog-header-title-text { font-size:38px;color:#000; }
+.screen-dialog-content .dialog-header-close{ float:right;margin-right:10px;cursor: pointer; }
+.screen-dialog-content .dialog-header-close:hover { float:right;margin-right:10px;cursor: pointer; -webkit-transform: scale(1.05); transform: scale(1.05); }
+.screen-dialog-content .dialog-header-close-icon { width: 38px;height: 38px;vertical-align: middle;fill: currentColor;overflow: hidden;opacity:0.35; }
+.screen-dialog-content .dialog-container { height:400px; }
+.screen-dialog-content .dialog-container-inner { height:100%; width: 100%; margin-top: 2px; }
+.screen-dialog-content .dialog-container-row { height:25%; width:100%; background: #fefefe; border-bottom: 1px solid #f9f9f9; }
+.screen-dialog-content .dialog-container-row .dialog-container-row-key{ float:left; width:13.5%;font-size:24px; }
+.screen-dialog-content .dialog-container-row .dialog-container-row-key-inner{ float:right; font-size:28px; text-align: right; margin-right: 15px;height:60px;line-height:60px;opacity: 0.575; }
+.screen-dialog-content .dialog-container-row .dialog-container-row-input{ float:left; width:66.5%; }
+.screen-dialog-content .dialog-container-row .dialog-container-row-input-inner{ width:100%;height:60px;line-height:60px;border:1px solid #f0f0f0;font-size: 20px;border-radius: 4px; }
+.screen-dialog-content .dialog-container-row .dialog-container-row-input-inner:hover,
+.screen-dialog-content .dialog-container-row .dialog-container-row-input-inner:focus { border:1px solid #66AFE9; outline:0px; }
+.screen-dialog-content .dialog-container-row .dialog-container-row-button{ float:left; width:20%; margin-left:0px; }
+.screen-dialog-content .dialog-container-row .dialog-container-row-button-inner{ float:right;height:60px;line-height:60px;width:120px;color:#f0f0f0; background: #338DD0; border:1px solid #66AFE9;margin-right:35px;border-radius: 4px;font-size: 24px;text-align: center;cursor: pointer; }
+.screen-dialog-content .dialog-footer{ position: absolute; width: 100%; height: 120px; background-color: #fefefe; border-top: 1px solid #eeeeee; }
+.screen-dialog-content .dialog-footer-inner { height:100%;width:100%;margin-top:30px;float: right;text-align: right; }
+.screen-dialog-content .dialog-footer-button:first-child{ float:right;height:60px;line-height:60px;width:120px;color:#f0f0f0; background: #338DD0; border:1px solid #66AFE9;margin-right:35px;border-radius: 4px;font-size: 24px;text-align: center;cursor: pointer; }
+.screen-dialog-content .dialog-footer-button:first-child:hover{ background: #2A8DD0;opacity: 0.90; }
+.screen-dialog-content .dialog-footer-button:last-child{ float:right;height:60px;line-height:60px;width:120px;color:#0f0f0f; background: #fefefe; border:1px solid #dfdfdf;margin-right:25px;border-radius: 4px;font-size: 24px;text-align: center;cursor: pointer; }
+.screen-dialog-content .dialog-footer-button:last-child:hover{ background: #f3f5f3;opacity: 0.90; }
+.screen-hidden-content { display: none; }
+.screen-page .van-toast { width: 300px; max-width: 300px; min-height: 200px; font-size: 24px; padding: 12px; color: #fff; line-height: 32px; }
+.autocomplete-suggestions { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; height: 50px; line-height: 50px; font-size: 24px;}
+.autocomplete-no-suggestion { padding: 2px 5px;}
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: bold; color: #000; }
+.autocomplete-group { padding: 2px 5px; font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
+.upload-btn { display: none; }
