@@ -1,9 +1,9 @@
     const SCREEN_TYPE_VIDEO = 'video';  //默认大屏屏幕显示类型：视频
     const SCREEN_TYPE_FRAME = 'iframe'; //默认大屏屏幕显示类型：网页
 
-    const fishFarmScreenURL = 'http://qa.ygwl.net/bmsWeb/#/galleryLargeScreen'; // 默认养渔家大屏地址
     const integrateOpsURL = '/views/screen/showroom.html';                      // 默认集维大屏地址
-    const defaultVideoURL = './files/scene00.mp4';                                    // 默认播放视频地址
+    const fishFarmScreenURL = 'http://qa.ygwl.net/bmsWeb/#/galleryLargeScreen'; // 默认养渔家大屏地址
+    const defaultVideoURL = 'https://cdn.jsdelivr.net/gh/Miazzy/cdnjs-library@v0.0.2/scene.mp4';                                    // 默认播放视频地址
 
     const fishFarmName = '养渔家';                                               // 养渔家名称
     const integrateOpsName = '集维';                                             // 集维名称
