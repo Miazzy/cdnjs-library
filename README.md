@@ -182,10 +182,12 @@ Methods区域，为此组件主要的业务逻辑处理的代码区域，其中�
 
 #### 岗位切换组件
 负责显示岗位切换弹框、执行岗位切换功能的组件
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/baeb6dcf74094058bbce7f52cbdd768d.png#pic_left =275x)
 
 #### 修改密码组件
 负责显示修改密码弹框、执行修改密码功能的组件
+
 ![修改密码](https://img-blog.csdnimg.cn/f3330afa47e3434ba64403aa1a2d2789.png#pic_left =200x)
 
 
